@@ -3,22 +3,48 @@ body{
     /* :hover  */
 }
 nav{
-    /* box-sizing:content-box ; */
+    /* box-sizing:content-box ;  */
     border: 2px solid rgba(255, 217, 0, 0.518);
     width: 20%;
+    height: 30%;
     margin: 0px;
     padding: 0px;
     display: grid;
     grid-template-columns:  100%  ;
-    grid-template-rows: 50% 50% auto;
+    grid-template-rows: 50% 50% ;
     background-color: bisque;
     /* color: black; */
 }
-@media (max-width: 700px ) {
-    main {
-      width:90%;
+@media (max-width: 500px ) {
+    nav{
+        /* box-sizing:content-box ;  */
+        border: 2px solid rgba(255, 217, 0, 0.518);
+        width: 35%;
+        height: 35%;
+        margin: 0px;
+        padding: 0px;
+        display: grid;
+        grid-template-columns:  100%  ;
+        grid-template-rows: 50% 50% ;
+        background-color: bisque;
+        /* color: black; */
     }
     footer{
       grid-template-columns: repeat(2, 1fr);
   }
+}
+
+@media (min-width: 501px ) {
+    nav{
+        /* box-sizing:content-box ;  */
+        border: 2px solid rgba(255, 217, 0, 0.518);
+        width: 35%;
+        height: 35%;
+        margin: 0px;
+        padding: 0px;
+        display: grid;
+        grid-template-columns:  100%  ;
+        grid-template-rows: 50% 50% ;
+        background-color: bisque;
+    }
 }
