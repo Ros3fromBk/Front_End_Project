@@ -1,0 +1,1 @@
+console.log ("Welcome, thank you for considering RISEN as your event curator.")

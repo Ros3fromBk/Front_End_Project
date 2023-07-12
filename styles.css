@@ -1,11 +1,16 @@
 body{
-    border: 1px solid green;
+    /* border: 1px solid green; */
+    :hover 
 }
 nav{
+    /* box-sizing:content-box ; */
+    border: 2px solid rgba(255, 217, 0, 0.518);
+    width: 20%;
     margin: 0px;
     padding: 0px;
     display: grid;
-    grid-template-columns:  50px ;
-    grid-template-rows: 50px ;
-    background-color: tan;
+    grid-template-columns:  100%  ;
+    grid-template-rows: 50% 50% auto;
+    background-color: bisque;
+    /* color: black; */
 }
