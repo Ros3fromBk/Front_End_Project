@@ -1,0 +1,11 @@
+body{
+    border: 1px solid green;
+}
+nav{
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns:  50px ;
+    grid-template-rows: 50px ;
+    background-color: tan;
+}
