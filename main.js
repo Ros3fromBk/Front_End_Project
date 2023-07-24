@@ -6,8 +6,10 @@ fetch("https://parallelum.com.br/fipe/api/v1/carros/marcas")
     console.log(JSONresponse)
     const catalogsContainer= document.querySelector(".cars_catalogs")
     let catalog1= document.querySelector("#log1") 
-    let catalogbrand= JSONresponse[0].nome
-    catalog1.src= catalogbrand
+    // let catalogbrand= JSONresponse[0].nome
+        let catalogbrand= JSONresponse.length-1
+
+    // catalog1.src= catalogbrand
     catalog1.alt= catalogbrand
 
     
