@@ -1,3 +1,34 @@
-/* a:hover {
-    background-color: yellow;
-  } */
+a:hover {
+    background-color: lightgreen;
+  }
+  @media (max-width: 500px ) {
+    nav{
+        /* box-sizing:content-box ;  */
+        border: 2px solid rgba(255, 217, 0, 0.518);
+        width: 35%;
+        height: 30px;
+        margin: 0px;
+        padding: 0px;
+        display: grid;
+        grid-template-columns:  100%  ;
+        grid-template-rows: 50% 50% ;
+        background-color: bisque;
+        color: black;
+    }
+}
+
+@media (min-width: 501px ) {
+    nav{
+        /* box-sizing:content-box ;  */
+        border: 2px solid rgba(255, 217, 0, 0.518);
+        width: 35%;
+        height: 30px;
+        margin: 0px;
+        padding: 0px;
+        display: grid;
+        grid-template-columns:  100%  ;
+        grid-template-rows: 50% 50% ;
+        background-color: rgb(92, 152, 205);
+        color: black;
+    }
+}

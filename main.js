@@ -1,6 +1,10 @@
 console.log ("Welcome, thank you for considering Class & Speed LR!")
 
-
+fetch("https://parallelum.com.br/fipe/api/v1/carros/marcas")
+.then( (response)=> response.json() )
+.then( (JSONresponse)=>{ 
+    console.log(JSONresponse)
+})
 // let instructorImg= true 
 // const imageForInstructor=document.querySelector("#instructor-image")
 //     imageForInstructor.addEventListener("click", () => {
