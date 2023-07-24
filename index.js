@@ -5,6 +5,13 @@ console.log(submitButtonContainer)
 
 const submitButtonQuery= submitButtonContainer.querySelector("#submit")
 // submitButtonQuery.addEventListener()
+
+// let randomCar= true
+// let allCarsButton = document.querySelector("All_Cars")
+// let allCarsButtonEvent=allCarsButton.addEventListener("click",() => {
+// console.log("randomCar")
+// // allCarsButtonEvent.innertext
+// })
 // fetch("https://parallelum.com.br/fipe/api/v1/carros/marcas")
 
 
@@ -15,4 +22,4 @@ const submitButtonQuery= submitButtonContainer.querySelector("#submit")
 // correctAnswer.innerText =  randomAnswer1.correct_answer
 
 
-//     })
+    // })
